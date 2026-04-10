@@ -312,33 +312,23 @@ body {
 .title.is-3 {
   font-family: "Inter", sans-serif !important;
   font-weight: 700 !important;
-  color: var(--text-primary);
-  margin-bottom: 2rem !important;
-  position: relative;
-  padding-bottom: 1rem;
+  color: var(--text-primary) !important;
+  margin-bottom: 1.5rem !important;
 }
 
-.title.is-3::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 60px;
-  height: 3px;
-  background: var(--gradient-accent);
-  border-radius: 2px;
-}
 
 /* Content Improvements */
 .content.has-text-justified {
-  font-size: 1.1rem;
-  line-height: 1.8;
-  color: var(--text-secondary);
+  font-size: 0.92rem;
+  line-height: 1.78;
+  color: #374151;
 }
 
 .content.has-text-justified p {
   margin-bottom: 1.5rem;
+  color: #374151;
+  font-size: 0.92rem;
+  line-height: 1.78;
 }
 
 /* Footer Improvements */
@@ -768,19 +758,19 @@ body {
 }
 
 .title.is-5 {
-  font-size: 1.4rem !important;
+  font-size: 1rem !important;
   margin-bottom: 0.5rem !important;
 }
 
-/* Reduce content spacing */
+/* Unified content text size across all sections */
 .content.has-text-justified {
-  font-size: 1.3rem !important;
-  line-height: 1.6 !important;
+  font-size: 0.92rem !important;
+  line-height: 1.75 !important;
 }
 
-/* Abstract text smaller */
+/* Abstract — same base size */
 .section.hero.is-light .content.has-text-justified {
-  font-size: 1.1rem !important;
+  font-size: 0.92rem !important;
 }
 
 /* Make orchestration.png smaller and centered */
@@ -800,43 +790,42 @@ img[src*="orchestration.png"] {
 }
 
 .box p {
-  font-size: 1.1rem !important;
+  font-size: 0.88rem !important;
   text-align: left !important;
 }
 
-/* System Architecture Overview - match design goals style */
+/* Section content paragraphs — unified size */
 .section .content p,
 .hero .content p {
-  font-size: 1.1rem !important;
-  text-align: left !important;
+  font-size: 0.92rem !important;
+  line-height: 1.75 !important;
 }
 
-/* Study details sections - match design goals style */
+/* Study details sections */
 .column h4 + p {
-  font-size: 1.1rem !important;
-  text-align: left !important;
+  font-size: 0.92rem !important;
+  line-height: 1.75 !important;
 }
 
-/* Design Implications section - match design goals style */
+/* Design Implications section */
 .image-container + .content p {
-  font-size: 1.1rem !important;
-  text-align: left !important;
+  font-size: 0.92rem !important;
 }
 .hero.is-small.is-light .content p {
-  font-size: 1.1rem !important;
+  font-size: 0.92rem !important;
 }
 
 .content.has-text-justified p {
   margin-bottom: 1rem !important;
 }
 
-/* Reduce section spacing */
+/* Section spacing */
 .section {
-  padding: 2rem 1.5rem !important;
+  padding: 3.5rem 1.5rem !important;
 }
 
 .hero.is-light {
-  padding: 1.5rem 0 !important;
+  padding: 2rem 0 !important;
 }
 
 /* Compact carousel items */
@@ -905,7 +894,7 @@ pre {
   }
 
   .content.has-text-justified {
-    font-size: 0.85rem !important;
+    font-size: 0.88rem !important;
   }
 
   .results-carousel .item {

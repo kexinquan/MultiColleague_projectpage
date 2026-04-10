@@ -190,11 +190,11 @@
   <main id="main-content">
   <section class="hero">
     <div class="hero-body">
-      <div class="container is-max-desktop">
+      <div class="container is-max-widescreen">
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Towards AI as Colleagues: Multi-Agent System Improves Structured Professional Ideation</h1>
+            <h1 class="title is-1 publication-title">Towards AI as Colleagues:<br/>Multi-Agent System Improves Structured<br/>Professional Ideation</h1>
             <div class="is-size-5 publication-authors">
               <span class="author-block">
                 <a href="https://www.kexinquan.com" target="_blank">Kexin Quan</a><sup>1</sup>,</span>
@@ -223,7 +223,7 @@
                     <div class="publication-links">
                          <!-- TODO: Update with your arXiv paper ID -->
                       <span class="link-block">
-                        <a href="static/pdfs/CHI_26_MultiColleagues.pdf" target="_blank"
+                        <a href="https://arxiv.org/pdf/2510.23904" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -232,29 +232,14 @@
                       </a>
                     </span>
 
-                    
-                    <!-- <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span> -->
-
-                  
-
-                <!-- TODO: Update with your arXiv paper ID -->
-                <!-- <span class="link-block">
-                  <a href="https://drive.google.com/file/d/10nZMwtzCwEADUhf-hI4bI1J7TunEjd64/view?usp=sharing" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span> -->
+                    <span class="link-block">
+                      <a href="#BibTeX" class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-quote-right"></i>
+                        </span>
+                        <span>BibTeX</span>
+                      </a>
+                    </span>
             </div>
           </div>
         </div>
@@ -266,105 +251,99 @@
 
 <!-- Teaser video-->
 <section class="hero teaser">
-  <div class="container is-max-desktop">
+  <div class="container is-max-widescreen">
     <div class="hero-body">
-      <img src="static/images/teaser.jpg" alt="MultiColleagues System Overview" loading="lazy" style="width: 100%; height: auto;"/>
-      <h2 class="subtitle has-text-centered">
-        MultiColleagues demonstrates how AI agents can act as colleagues through conversational interaction, role differentiation, and structured ideation support, fostering stronger social presence and higher-quality creative outcomes. 
+      <img src="static/images/teaser.jpg" alt="MultiColleagues System Overview" loading="lazy" style="width: 70%; height: auto; display: block; margin: 0 auto;"/>
+      <h2 class="subtitle has-text-centered" style="font-size: 0.92rem; color: #374151; line-height: 1.75; margin-top: 1rem;">
+        MultiColleagues demonstrates how AI agents can act as colleagues through conversational interaction, role differentiation, and structured ideation support, fostering stronger social presence and higher-quality creative outcomes.
       </h2>
     </div>
   </div>
 </section>
 <!-- End teaser video -->
 
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column ">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
-          <p>
-            Most AI systems today are designed to manage tasks and execute predefined steps. This makes them effective for process coordination but limited in their ability to engage in joint problem-solving with humans or contribute new ideas. We introduce MultiColleagues, a multi-agent conversational system that shows how AI agents can act as colleagues by conversing with each other, sharing new ideas, and actively involving users in collaborative ideation. In a within-subjects study with 20 participants, we compared MultiColleagues to a single-agent baseline. Results show that MultiColleagues fostered stronger perceptions of social presence, produced ideas rated significantly higher in quality and novelty, and encouraged deeper elaboration. These findings demonstrate the potential of AI agents to move beyond process partners toward colleagues that share intent, strengthen group dynamics, and collaborate with humans to advance ideas.</p>
+
+
+<!-- Introduction narrative section -->
+<section class="section" style="background: #fff;">
+  <div class="container is-max-widescreen">
+    <h2 class="title is-3 has-text-centered">AI as Colleagues: From Tools to Teammates</h2>
+
+    <!-- Prose paragraphs — single column, full width -->
+    <div style="font-size: 0.92rem; line-height: 1.78; color: #374151; margin-bottom: 2rem;">
+      <p style="margin-bottom: 1rem;">
+        Recent adoption of <strong>large language models (LLMs)</strong> has moved from deployments as <strong>"copilot" tools</strong> toward more dynamic roles in collaborative settings. Early applications positioned LLMs as tools or evaluators — automating summarization, programming assistance, or quality assessment. Although useful, these positioned AI as <strong>automation</strong> rather than as a partner, whereas emerging <strong>multi-agent frameworks</strong> suggest a broader transition. Systems such as AutoGen and CrewAI demonstrate how multiple LLMs can be coordinated under structured protocols, with agents adopting complementary roles such as <strong>planner</strong>, <strong>critic</strong>, or <strong>explainer</strong>.
+      </p>
+      <p style="margin-bottom: 0;">
+        The growing use of multi-agent frameworks raises a deeper question: whether LLMs can be experienced not only as tools but also as <strong>colleagues</strong> in collaborative work. <strong>Ideation</strong> provides a representative context to probe this question — LLM assistance can expand the number and diversity of ideas, while also risking <strong>homogenization and over-reliance</strong> when users interact with a single voice. Multi-agent personas present a promising approach, emulating interdisciplinary team dynamics and enabling humans to retain <strong>strategic oversight</strong>.
+      </p>
+    </div>
+
+    <!-- Image + Scenario: side by side, naturally balanced -->
+    <div style="display: flex; gap: 2.5rem; align-items: center; margin-bottom: 2rem;">
+
+      <!-- Image -->
+      <div style="flex: 0 0 auto; width: 260px; text-align: center;">
+        <img src="static/images/colleagues.png" alt="Roundtable of AI colleagues" loading="lazy"
+             style="width: 100%; height: auto; display: block;"/>
+      </div>
+
+      <!-- Scenario card -->
+      <div style="flex: 1; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.4rem 1.6rem; font-size: 0.88rem; line-height: 1.72; color: #374151;">
+        <p style="font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #9ca3af; margin-bottom: 0.85rem;">A Typical Scenario</p>
+        <p style="margin-bottom: 0.9rem;">
+          A designer brainstorms how to improve remote team collaboration. With a <strong>single AI assistant</strong>, the interaction is transactional — ask, receive, repeat. The AI waits to be prompted, delivering one-sided responses that leave the designer as a <strong>passive consumer</strong> of AI output.
+        </p>
+        <div style="border-top: 1px solid #e2e8f0; padding-top: 0.9rem;">
+          <p style="margin-bottom: 0;">
+            Now imagine a <strong>roundtable of AI colleagues</strong> — a User Researcher raising pain points, a System Architect flagging constraints, a Market Analyst grounding ideas in data — each building on each other's reasoning, inviting the human to <strong>steer and synthesize</strong>. Same problem. Fundamentally different experience.
+          </p>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- End paper abstract -->
 
-
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">System Architecture</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/system_flow.jpg" alt="MultiColleagues System Flow" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h1 class="subtitle has-text-centered">
-          MultiColleagues system workflow: users select AI colleagues, engage in structured ideation with explore/focus modes, and receive facilitation support.
-        </h1>
-      </div>
-      <!-- <div class="item">
-        
-        <img src="static/images/DI.png" alt="Design Implications" wloading="lazy"/>
-        <h1 class="subtitle has-text-centered">
-         Design implications for moving from AI as tools to AI as colleagues: proactive multi-voiced collaboration, seamless orchestration, and trust-building.
-       </h1>
-     </div> -->
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/orchestration.png" alt="AI Colleagues Orchestration" loading="lazy"/>
-      <h1 class="subtitle has-text-centered">
-        AI colleagues orchestration framework showing how multiple agents coordinate their contributions, maintain distinct roles, and facilitate seamless human-AI collaboration through structured interaction patterns.
-      </h1>
+    <!-- Closing research question -->
+    <div style="background: #1e293b; color: #f1f5f9; border-radius: 8px; padding: 1.2rem 1.75rem;">
+      <p style="margin: 0; font-size: 0.95rem; line-height: 1.72; font-style: italic; text-align: center;">
+        So, can AI systems move beyond <strong style="color: #93c5fd;">process partners</strong> toward <strong style="color: #93c5fd;">colleagues</strong><br/>that share intent, strengthen group dynamics, and collaborate with humans to advance ideas?
+      </p>
     </div>
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
+<!-- End introduction narrative -->
+
 
 <!-- Design Goals -->
-<section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column">
-        <h2 class="title is-3">Design Goals</h2>
-        <div class="content">
-          <div class="columns">
-            <div class="column">
-              <div class="box">
-                <h4 class="title is-5">Adaptive Human-AI Co-ideation</h4>
-                <p class="has-text-justified">
-                  Enable fluid navigation between exploratory and evaluative phases while maintaining strategic human control over the ideation process.
-                </p>
-              </div>
-            </div>
-            <div class="column">
-              <div class="box">
-                <h4 class="title is-5">Rich Multi-perspective Collaboration</h4>
-                <p class="has-text-justified">
-                  Facilitate engagement with diverse AI viewpoints to encourage comprehensive exploration and richer creative outcomes.
-                </p>
-              </div>
-            </div>
-            <div class="column">
-              <div class="box">
-                <h4 class="title is-5">Transparent Collaborative Control</h4>
-                <p class="has-text-justified">
-                  Provide clear interaction points and user-friendly interfaces that enable strategic oversight while leveraging AI capabilities.
-                </p>
-              </div>
-            </div>
-          </div>
+<section class="section" style="background: #fff;">
+  <div class="container is-max-widescreen">
+    <div style="display: flex; gap: 3rem; align-items: center;">
+
+      <!-- Left: Title + Goals stacked vertically -->
+      <div style="flex: 0 0 auto; width: 320px; display: flex; flex-direction: column; gap: 1.6rem;">
+        <h2 class="title is-3" style="margin-bottom: 0 !important; padding-bottom: 0 !important;">Design Goals</h2>
+        <div style="border-left: 3px solid #2563eb; background: #f8fafc; border-radius: 0 6px 6px 0; padding: 1.1rem 1.25rem;">
+          <p style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #2563eb; margin-bottom: 0.4rem;">Goal 1</p>
+          <h4 style="margin: 0 0 0.45rem; font-size: 0.9rem; font-weight: 700; color: #1e293b; font-family: Inter, sans-serif; line-height: 1.35;">Adaptive Human-AI Co-ideation</h4>
+          <p style="font-size: 0.85rem; line-height: 1.68; color: #374151; margin: 0;">Enable fluid navigation between exploratory and evaluative phases while maintaining strategic human control over the ideation process.</p>
+        </div>
+        <div style="border-left: 3px solid #2563eb; background: #f8fafc; border-radius: 0 6px 6px 0; padding: 1.1rem 1.25rem;">
+          <p style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #2563eb; margin-bottom: 0.4rem;">Goal 2</p>
+          <h4 style="margin: 0 0 0.45rem; font-size: 0.9rem; font-weight: 700; color: #1e293b; font-family: Inter, sans-serif; line-height: 1.35;">Rich Multi-perspective Collaboration</h4>
+          <p style="font-size: 0.85rem; line-height: 1.68; color: #374151; margin: 0;">Facilitate engagement with diverse AI viewpoints to encourage comprehensive exploration and richer creative outcomes.</p>
+        </div>
+        <div style="border-left: 3px solid #2563eb; background: #f8fafc; border-radius: 0 6px 6px 0; padding: 1.1rem 1.25rem;">
+          <p style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #2563eb; margin-bottom: 0.4rem;">Goal 3</p>
+          <h4 style="margin: 0 0 0.45rem; font-size: 0.9rem; font-weight: 700; color: #1e293b; font-family: Inter, sans-serif; line-height: 1.35;">Transparent Collaborative Control</h4>
+          <p style="font-size: 0.85rem; line-height: 1.68; color: #374151; margin: 0;">Provide clear interaction points and user-friendly interfaces that enable strategic oversight while leveraging AI capabilities.</p>
         </div>
       </div>
+
+      <!-- Right: System flow image -->
+      <div style="flex: 1; min-width: 0;">
+        <img src="static/images/system_flow.jpg" alt="System Flow" loading="lazy"
+             style="width: 100%; height: auto; display: block; border-radius: 8px; border: 1px solid #e2e8f0;"/>
+      </div>
+
     </div>
   </div>
 </section>
@@ -373,18 +352,19 @@
 <!-- System Architecture Overview -->
 <section class="hero is-small is-light">
   <div class="hero-body">
-    <div class="container">
+    <div class="container is-max-widescreen">
       <h2 class="title is-3">System Architecture Overview</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column">
-          <div class="content has-text-justified">
-            <p>
-              The MultiColleagues system implements a multi-agent conversational framework where multiple AI agents work together as colleagues rather than individual tools. Each agent has distinct roles and expertise, contributing unique perspectives during collaborative ideation sessions.
-              The system features a dual-mode switching framework based on the double diamond design methodology. <strong>Explore mode</strong> emphasizes breadth and diversity of viewpoints for divergent thinking, while <strong>Focus mode</strong> emphasizes depth, clarity, and actionable outcomes for convergent evaluation.</p>
-<p>Through carefully designed conversational interfaces, users can naturally interact with multiple AI colleagues simultaneously, receiving coordinated support that fosters stronger social presence and higher-quality creative outcomes compared to traditional single-agent systems.
-          </div>
-        </div>
-      </div>
+      <!-- Figure -->
+      <img src="static/images/flow.png" alt="System Flow Diagram" loading="lazy"
+           style="width: 70%; height: auto; display: block; border-radius: 8px; margin: 0 auto 1.5rem;"/>
+
+      <!-- Text below -->
+      <p style="font-size: 0.92rem; line-height: 1.78; color: #374151; margin-bottom: 1rem;">
+        The MultiColleagues system implements a multi-agent conversational framework where multiple AI agents work together as colleagues rather than individual tools. Each agent has distinct roles and expertise, contributing unique perspectives during collaborative ideation sessions.
+      </p>
+      <p style="font-size: 0.92rem; line-height: 1.78; color: #374151; margin: 0;">
+        The system features a dual-mode switching framework based on the double diamond design methodology. <strong>Explore mode</strong> emphasizes breadth and diversity of viewpoints for divergent thinking, while <strong>Focus mode</strong> emphasizes depth, clarity, and actionable outcomes for convergent evaluation.
+      </p>
     </div>
   </div>
 </section>
@@ -394,7 +374,7 @@
 <!-- Study Details -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container">
+    <div class="container is-max-widescreen">
       <h2 class="title is-3">Study Design</h2>
       <div class="content">
         <div class="columns">
@@ -420,11 +400,11 @@
 <!-- Results Section -->
 <section class="hero is-small is-light">
   <div class="hero-body">
-    <div class="container">
+    <div class="container is-max-widescreen">
       <h2 class="title is-3">Key Findings</h2>
       <div class="content">
-        <p class="has-text-centered is-size-5">
-          Our within-subjects study with 20 participants demonstrated that MultiColleagues significantly outperformed the single-agent baseline across multiple dimensions of collaborative ideation.
+        <p style="font-size: 0.92rem; line-height: 1.78; color: #374151; margin-bottom: 1.5rem;">
+          Our within-subjects study with 20 participants demonstrated that MultiColleagues significantly outperformed the single-agent baseline<br/>across multiple dimensions of collaborative ideation.
         </p>
         
         <!-- Statistical Results Tables -->
@@ -434,7 +414,7 @@
           <div class="column is-full">
             <div class="box">
               <h3 class="title is-4 has-text-centered">RQ1: Collaborative Experience</h3>
-              <p class="subtitle is-6 has-text-centered">MultiColleagues fostered stronger team-like collaboration and engagement</p>
+              <p class="subtitle is-6" style="text-align: center !important;">MultiColleagues fostered stronger team-like collaboration and engagement</p>
               
               <div class="table-container">
                 <table class="table is-fullwidth is-striped">
@@ -479,7 +459,7 @@
           <div class="column is-full">
             <div class="box">
               <h3 class="title is-4 has-text-centered">RQ2: Creative Outcomes</h3>
-              <p class="subtitle is-6 has-text-centered">MultiColleagues produced higher quality and more novel ideas</p>
+              <p class="subtitle is-6" style="text-align: center !important;">MultiColleagues produced higher quality and more novel ideas</p>
               
               <div class="table-container">
                 <table class="table is-fullwidth is-striped">
@@ -524,7 +504,7 @@
           <div class="column is-full">
             <div class="box">
               <h3 class="title is-4 has-text-centered">RQ3: System Design & User Agency</h3>
-              <p class="subtitle is-6 has-text-centered">MultiColleagues provided stronger user control and adaptive thinking support</p>
+              <p class="subtitle is-6" style="text-align: center !important;">MultiColleagues provided stronger user control and adaptive thinking support</p>
               
               <div class="table-container">
                 <table class="table is-fullwidth is-striped">
@@ -674,9 +654,9 @@
 
 <!-- Design Implications -->
 <section class="section">
-  <div class="container is-fullhd">
+  <div class="container is-max-widescreen">
     <div class="columns is-centered has-text-centered">
-      <div class="column is-three-quarters">
+      <div class="column">
         <h2 class="title is-3">Design Implications for AI Colleagues</h2>
         <div class="image-container" style="margin-bottom: 2rem;">
           <img src="static/images/DI.png" alt="Design Implications" loading="lazy" style="width: 90%; height: auto; border-radius: 12px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); margin: 0 auto; display: block;"/>
@@ -693,36 +673,41 @@
 <!-- End Design Implications -->
 
 <!--BibTex citation -->
-  <!-- <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
-        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-          <i class="fas fa-copy"></i>
-          <span class="copy-text">Copy</span>
-        </button>
-      </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
-}</code></pre>
+<section class="section" id="BibTeX">
+  <div class="container is-max-widescreen">
+    <div class="bibtex-header">
+      <h2 class="title is-3">BibTeX</h2>
+      <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+        <i class="fas fa-copy"></i>
+        <span class="copy-text">Copy</span>
+      </button>
     </div>
-</section> -->
+    <pre id="bibtex-code"><code>@inproceedings{quan2026multicolleagues,
+  title     = {Towards AI as Colleagues: Multi-Agent System Improves Structured Professional Ideation},
+  author    = {Quan, Kexin and Albassam, Dina and Wu, Mengke and Ding, Zijian and Chin, Jessie},
+  booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26)},
+  year      = {2026},
+  month     = {April},
+  pages     = {1--17},
+  location  = {Barcelona, Spain},
+  publisher = {ACM},
+  doi       = {10.1145/3772318.3790375},
+  isbn      = {979-8-4007-2278-3/2026/04},
+  url       = {https://arxiv.org/pdf/2510.23904}
+}</code></pre>
+  </div>
+</section>
 <!--End BibTex citation -->
 
 
   <footer class="footer">
-  <div class="container">
+  <div class="container is-max-widescreen">
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
 
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+             <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
 
